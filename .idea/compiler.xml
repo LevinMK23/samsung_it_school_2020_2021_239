@@ -10,8 +10,8 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="module-1-intro" target="8" />
-      <module name="samsung_it_school_2020_2021_239" target="8" />
+      <module name="module-1-intro" target="13" />
+      <module name="samsung_it_school_2020_2021_239" target="15" />
     </bytecodeTargetLevel>
   </component>
 </project>

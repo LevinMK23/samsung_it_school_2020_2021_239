@@ -7,10 +7,21 @@ public class HelloWorld {
         return param + 1;
     }
 
+    static void calc(String s, String o) {
+        int start = 0, ans = 0;
+        while (start < s.length()) {
+            start = s.indexOf(o, start);
+            start++;
+            if (start != 0) {
+                ans++;
+            } else {
+                break;
+            }
+        }
+        System.out.println(ans);
+    }
+
     public static void main(String[] args) {
-        System.out.println("Hello world!");
-        System.out.println("Hello CI )))");
-        System.out.println("1 + 2");
-        System.out.println("1");
+        calc("1234567234", "234");
     }
 }
