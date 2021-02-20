@@ -100,6 +100,18 @@ public class MyLinkedList<T> implements MyList<T> {
     }
 
     @Override
+    public boolean contains(T value) {
+        Node tmp = head;
+        while (tmp != null) {
+            if (tmp.value.equals(value)) {
+                return true;
+            }
+            tmp = tmp.right;
+        }
+        return false;
+    }
+
+    @Override
     public void set(int idx, T value) {
         Node tmp = head;
         for (int i = 0; i < idx; i++) {

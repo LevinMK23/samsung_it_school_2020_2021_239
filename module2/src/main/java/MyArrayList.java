@@ -90,6 +90,11 @@ public class MyArrayList<T> implements MyList<T> {
     }
 
     @Override
+    public boolean contains(T value) {
+        return false;
+    }
+
+    @Override
     public void set(int idx, T value) {
         data[idx] = value;
     }

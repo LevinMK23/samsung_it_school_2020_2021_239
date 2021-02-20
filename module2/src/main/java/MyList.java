@@ -4,5 +4,6 @@ public interface MyList<T> extends Iterable<T> {
     void remove(T value);
     void remove(int idx);
     T get(int idx);
+    boolean contains(T value);
     void set(int idx, T value);
 }
