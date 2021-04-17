@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="module-4" />
+        <module name="module5" />
         <module name="calculator" />
         <module name="module-3" />
         <module name="module2-OOP" />
@@ -19,6 +20,7 @@
       <module name="module-3" target="8" />
       <module name="module-4" target="8" />
       <module name="module2-OOP" target="8" />
+      <module name="module5" target="8" />
       <module name="samsung_it_school_2020_2021_239" target="8" />
     </bytecodeTargetLevel>
   </component>
